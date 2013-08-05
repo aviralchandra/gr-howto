@@ -1,0 +1,9 @@
+/home/aviral/gr-howto/build/swig/CMakeFiles/_howto_swig.dir
+/home/aviral/gr-howto/build/swig/CMakeFiles/_howto_swig_doc_tag.dir
+/home/aviral/gr-howto/build/swig/CMakeFiles/_howto_swig_swig_tag.dir
+/home/aviral/gr-howto/build/lib/CMakeFiles/gnuradio-howto.dir
+/home/aviral/gr-howto/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/aviral/gr-howto/build/python/CMakeFiles/pygen_python_911ba.dir
+/home/aviral/gr-howto/build/swig/CMakeFiles/pygen_swig_296bd.dir
+/home/aviral/gr-howto/build/lib/CMakeFiles/test-howto.dir
+/home/aviral/gr-howto/build/CMakeFiles/uninstall.dir

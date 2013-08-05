@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="dir_f3228c880b13901f86410ea28e0a966d" kind="dir">
+    <compoundname>/home/aviral/gr-howto/include/</compoundname>
+    <innerdir refid="dir_0811e54ebe856e4b9330830ece592e8a">/home/aviral/gr-howto/include/howto/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/gr-howto/include/"/>
+  </compounddef>
+</doxygen>
