@@ -2948,42 +2948,44 @@ SWIG_Python_NonDynamicSetAttr(PyObject *obj, PyObject *name, PyObject *value) {
 #define SWIGTYPE_p_boost__int16_t swig_types[3]
 #define SWIGTYPE_p_boost__int32_t swig_types[4]
 #define SWIGTYPE_p_boost__intrusive_ptrT_PMCImpl_t swig_types[5]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__howto__square_ff_t swig_types[6]
-#define SWIGTYPE_p_boost__shared_ptrT_gr_io_signature_t swig_types[7]
-#define SWIGTYPE_p_boost__shared_ptrT_gr_message_t swig_types[8]
-#define SWIGTYPE_p_boost__shared_ptrT_gr_msg_queue_t swig_types[9]
-#define SWIGTYPE_p_boost__uint16_t swig_types[10]
-#define SWIGTYPE_p_boost__uint32_t swig_types[11]
-#define SWIGTYPE_p_char swig_types[12]
-#define SWIGTYPE_p_difference_type swig_types[13]
-#define SWIGTYPE_p_gr__howto__square_ff swig_types[14]
-#define SWIGTYPE_p_gr_block swig_types[15]
-#define SWIGTYPE_p_gr_hier_block2 swig_types[16]
-#define SWIGTYPE_p_gr_sync_block swig_types[17]
-#define SWIGTYPE_p_gr_sync_decimator swig_types[18]
-#define SWIGTYPE_p_gr_sync_interpolator swig_types[19]
-#define SWIGTYPE_p_gras__Block swig_types[20]
-#define SWIGTYPE_p_gras__Callable swig_types[21]
-#define SWIGTYPE_p_gras__Element swig_types[22]
-#define SWIGTYPE_p_gras__HierBlock swig_types[23]
-#define SWIGTYPE_p_long_long swig_types[24]
-#define SWIGTYPE_p_size_type swig_types[25]
-#define SWIGTYPE_p_sptr swig_types[26]
-#define SWIGTYPE_p_std__complexT_double_t swig_types[27]
-#define SWIGTYPE_p_std__complexT_float_t swig_types[28]
-#define SWIGTYPE_p_std__invalid_argument swig_types[29]
-#define SWIGTYPE_p_std__vectorT_double_std__allocatorT_double_t_t swig_types[30]
-#define SWIGTYPE_p_std__vectorT_float_std__allocatorT_float_t_t swig_types[31]
-#define SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t swig_types[32]
-#define SWIGTYPE_p_std__vectorT_std__string_std__allocatorT_std__string_t_t swig_types[33]
-#define SWIGTYPE_p_std__vectorT_unsigned_int_std__allocatorT_unsigned_int_t_t swig_types[34]
-#define SWIGTYPE_p_std__vectorT_void_const_p_std__allocatorT_void_const_p_t_t swig_types[35]
-#define SWIGTYPE_p_std__vectorT_void_p_std__allocatorT_void_p_t_t swig_types[36]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[37]
-#define SWIGTYPE_p_unsigned_long_long swig_types[38]
-#define SWIGTYPE_p_value_type swig_types[39]
-static swig_type_info *swig_types[41];
-static swig_module_info swig_module = {swig_types, 40, 0, 0, 0, 0};
+#define SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t swig_types[6]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__howto__square_ff_t swig_types[7]
+#define SWIGTYPE_p_boost__shared_ptrT_gr_io_signature_t swig_types[8]
+#define SWIGTYPE_p_boost__shared_ptrT_gr_message_t swig_types[9]
+#define SWIGTYPE_p_boost__shared_ptrT_gr_msg_queue_t swig_types[10]
+#define SWIGTYPE_p_boost__uint16_t swig_types[11]
+#define SWIGTYPE_p_boost__uint32_t swig_types[12]
+#define SWIGTYPE_p_char swig_types[13]
+#define SWIGTYPE_p_difference_type swig_types[14]
+#define SWIGTYPE_p_gr__howto__square2_ff swig_types[15]
+#define SWIGTYPE_p_gr__howto__square_ff swig_types[16]
+#define SWIGTYPE_p_gr_block swig_types[17]
+#define SWIGTYPE_p_gr_hier_block2 swig_types[18]
+#define SWIGTYPE_p_gr_sync_block swig_types[19]
+#define SWIGTYPE_p_gr_sync_decimator swig_types[20]
+#define SWIGTYPE_p_gr_sync_interpolator swig_types[21]
+#define SWIGTYPE_p_gras__Block swig_types[22]
+#define SWIGTYPE_p_gras__Callable swig_types[23]
+#define SWIGTYPE_p_gras__Element swig_types[24]
+#define SWIGTYPE_p_gras__HierBlock swig_types[25]
+#define SWIGTYPE_p_long_long swig_types[26]
+#define SWIGTYPE_p_size_type swig_types[27]
+#define SWIGTYPE_p_sptr swig_types[28]
+#define SWIGTYPE_p_std__complexT_double_t swig_types[29]
+#define SWIGTYPE_p_std__complexT_float_t swig_types[30]
+#define SWIGTYPE_p_std__invalid_argument swig_types[31]
+#define SWIGTYPE_p_std__vectorT_double_std__allocatorT_double_t_t swig_types[32]
+#define SWIGTYPE_p_std__vectorT_float_std__allocatorT_float_t_t swig_types[33]
+#define SWIGTYPE_p_std__vectorT_int_std__allocatorT_int_t_t swig_types[34]
+#define SWIGTYPE_p_std__vectorT_std__string_std__allocatorT_std__string_t_t swig_types[35]
+#define SWIGTYPE_p_std__vectorT_unsigned_int_std__allocatorT_unsigned_int_t_t swig_types[36]
+#define SWIGTYPE_p_std__vectorT_void_const_p_std__allocatorT_void_const_p_t_t swig_types[37]
+#define SWIGTYPE_p_std__vectorT_void_p_std__allocatorT_void_p_t_t swig_types[38]
+#define SWIGTYPE_p_swig__SwigPyIterator swig_types[39]
+#define SWIGTYPE_p_unsigned_long_long swig_types[40]
+#define SWIGTYPE_p_value_type swig_types[41]
+static swig_type_info *swig_types[43];
+static swig_module_info swig_module = {swig_types, 42, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -4370,6 +4372,7 @@ namespace swig
 
 
 #include "howto/square_ff.h"
+#include "howto/square2_ff.h"
 
 
 SWIGINTERNINLINE PyObject* 
@@ -7135,6 +7138,1612 @@ SWIGINTERN PyObject *square_ff_sptr_swigregister(PyObject *SWIGUNUSEDPARM(self),
   return SWIG_Py_Void();
 }
 
+SWIGINTERN PyObject *_wrap_square2_ff_make(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::howto::square2_ff::sptr result;
+  
+  {
+    try {
+      result = gr::howto::square2_ff::make();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::howto::square2_ff::sptr(static_cast< const gr::howto::square2_ff::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_square2_ff(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::howto::square2_ff *result = 0 ;
+  
+  {
+    try {
+      result = (gr::howto::square2_ff *)new gr::howto::square2_ff();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_gr__howto__square2_ff, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_square2_ff(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::howto::square2_ff *arg1 = (gr::howto::square2_ff *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_square2_ff",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__howto__square2_ff, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_square2_ff" "', argument " "1"" of type '" "gr::howto::square2_ff *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::howto::square2_ff * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *square2_ff_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_gr__howto__square2_ff, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_new_square2_ff_sptr__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *result = 0 ;
+  
+  {
+    try {
+      result = (boost::shared_ptr< gr::howto::square2_ff > *)new boost::shared_ptr< gr::howto::square2_ff >();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_square2_ff_sptr__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::howto::square2_ff *arg1 = (gr::howto::square2_ff *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  boost::shared_ptr< gr::howto::square2_ff > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_square2_ff_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__howto__square2_ff, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_square2_ff_sptr" "', argument " "1"" of type '" "gr::howto::square2_ff *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::howto::square2_ff * >(argp1);
+  {
+    try {
+      result = (boost::shared_ptr< gr::howto::square2_ff > *)new boost::shared_ptr< gr::howto::square2_ff >(arg1);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_square2_ff_sptr(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[2];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 1) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_square2_ff_sptr__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_gr__howto__square2_ff, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_square2_ff_sptr__SWIG_1(self, args);
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_square2_ff_sptr'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    boost::shared_ptr< gr::howto::square2_ff >::shared_ptr()\n"
+    "    boost::shared_ptr< gr::howto::square2_ff >::shared_ptr(gr::howto::square2_ff *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr___deref__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::howto::square2_ff *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr___deref__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr___deref__" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    try {
+      result = (gr::howto::square2_ff *)(arg1)->operator ->();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_gr__howto__square2_ff, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_square2_ff_sptr(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_square2_ff_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_square2_ff_sptr" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_make(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::howto::square2_ff::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr_make",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_make" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    try {
+      result = (*arg1)->make();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::howto::square2_ff::sptr(static_cast< const gr::howto::square2_ff::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_input_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr_io_signature_sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr_input_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_input_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    try {
+      result = (*arg1)->input_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr_io_signature_sptr(static_cast< const gr_io_signature_sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr_io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_output_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr_io_signature_sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr_output_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_output_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    try {
+      result = (*arg1)->output_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr_io_signature_sptr(static_cast< const gr_io_signature_sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr_io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_history(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  unsigned int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr_history",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_history" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    try {
+      result = (unsigned int)(*arg1)->history();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_output_multiple(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr_output_multiple",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_output_multiple" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->output_multiple();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_relative_rate(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr_relative_rate",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_relative_rate" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    try {
+      result = (double)(*arg1)->relative_rate();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_start(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr_start",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_start" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->start();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_stop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr_stop",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_stop" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->stop();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_nitems_read(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_input", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:square2_ff_sptr_nitems_read",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_nitems_read" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "square2_ff_sptr_nitems_read" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_read(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_nitems_written(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_output", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:square2_ff_sptr_nitems_written",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_nitems_written" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "square2_ff_sptr_nitems_written" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_written(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:square2_ff_sptr_set_max_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "square2_ff_sptr_set_max_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_max_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_unset_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr_unset_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_unset_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_is_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr_is_set_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_is_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->is_set_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_max_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:square2_ff_sptr_max_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "square2_ff_sptr_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_set_max_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr_set_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "square2_ff_sptr_set_max_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_set_max_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr_set_max_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "square2_ff_sptr_set_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "square2_ff_sptr_set_max_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_set_max_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_square2_ff_sptr_set_max_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_square2_ff_sptr_set_max_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'square2_ff_sptr_set_max_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr_block::set_max_output_buffer(long)\n"
+    "    gr_block::set_max_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_min_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:square2_ff_sptr_min_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "square2_ff_sptr_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_set_min_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr_set_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "square2_ff_sptr_set_min_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_set_min_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr_set_min_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "square2_ff_sptr_set_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "square2_ff_sptr_set_min_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_set_min_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_square2_ff_sptr_set_min_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_square2_ff_sptr_set_min_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'square2_ff_sptr_set_min_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr_block::set_min_output_buffer(long)\n"
+    "    gr_block::set_min_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_to_element__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gras::Element *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr_to_element",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_to_element" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    try {
+      result = (gras::Element *) &(*arg1)->to_element();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_gras__Element, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_to_element__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gras::Element *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr_to_element",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_to_element" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    try {
+      result = (gras::Element *) &(*arg1)->to_element();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_gras__Element, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_to_element(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[2];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 1) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_square2_ff_sptr_to_element__SWIG_1(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_square2_ff_sptr_to_element__SWIG_0(self, args);
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'square2_ff_sptr_to_element'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gras::Element::to_element() const\n"
+    "    gras::Element::to_element()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_equals(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  gras::Element *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "rhs", NULL 
+  };
+  bool result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:square2_ff_sptr_equals",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_equals" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_gras__Element,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "square2_ff_sptr_equals" "', argument " "2"" of type '" "gras::Element const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "square2_ff_sptr_equals" "', argument " "2"" of type '" "gras::Element const &""'"); 
+  }
+  arg2 = reinterpret_cast< gras::Element * >(argp2);
+  {
+    try {
+      result = (bool)(*arg1)->equals((gras::Element const &)*arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_to_string(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr_to_string",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_to_string" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    try {
+      result = (*arg1)->to_string();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_set_uid(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  std::string *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "uid", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:square2_ff_sptr_set_uid",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_set_uid" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "square2_ff_sptr_set_uid" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "square2_ff_sptr_set_uid" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    try {
+      (*arg1)->set_uid((std::string const &)*arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_get_uid(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr_get_uid",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_get_uid" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    try {
+      result = (*arg1)->get_uid();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_adopt_element(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  std::string *arg2 = 0 ;
+  gras::Element *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "name",(char *) "child", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:square2_ff_sptr_adopt_element",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_adopt_element" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "square2_ff_sptr_adopt_element" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "square2_ff_sptr_adopt_element" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_gras__Element,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "square2_ff_sptr_adopt_element" "', argument " "3"" of type '" "gras::Element const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "square2_ff_sptr_adopt_element" "', argument " "3"" of type '" "gras::Element const &""'"); 
+  }
+  arg3 = reinterpret_cast< gras::Element * >(argp3);
+  {
+    try {
+      (*arg1)->adopt_element((std::string const &)*arg2,(gras::Element const &)*arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_locate_element(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  std::string *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "path", NULL 
+  };
+  gras::Element *result = 0 ;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:square2_ff_sptr_locate_element",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_locate_element" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "square2_ff_sptr_locate_element" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "square2_ff_sptr_locate_element" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    try {
+      result = (gras::Element *)(*arg1)->locate_element((std::string const &)*arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_gras__Element, 0 |  0 );
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr_get_registered_names(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  SwigValueWrapper< std::vector< std::string,std::allocator< std::string > > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"square2_ff_sptr_get_registered_names",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr_get_registered_names" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    try {
+      result = (*arg1)->get_registered_names();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new std::vector< std::string,std::allocator< std::string > >(static_cast< const std::vector< std::string,std::allocator< std::string > >& >(result))), SWIGTYPE_p_std__vectorT_std__string_std__allocatorT_std__string_t_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_square2_ff_sptr__handle_call(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::howto::square2_ff > *arg1 = (boost::shared_ptr< gr::howto::square2_ff > *) 0 ;
+  std::string *arg2 = 0 ;
+  PMCC *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *)"arg2",(char *)"arg3", NULL 
+  };
+  PMCC result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:square2_ff_sptr__handle_call",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "square2_ff_sptr__handle_call" "', argument " "1"" of type '" "boost::shared_ptr< gr::howto::square2_ff > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::howto::square2_ff > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "square2_ff_sptr__handle_call" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "square2_ff_sptr__handle_call" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_PMCC,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "square2_ff_sptr__handle_call" "', argument " "3"" of type '" "PMCC const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "square2_ff_sptr__handle_call" "', argument " "3"" of type '" "PMCC const &""'"); 
+  }
+  arg3 = reinterpret_cast< PMCC * >(argp3);
+  {
+    try {
+      result = (*arg1)->_handle_call((std::string const &)*arg2,(PMCC const &)*arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new PMCC(static_cast< const PMCC& >(result))), SWIGTYPE_p_PMCC, SWIG_POINTER_OWN |  0 );
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *square2_ff_sptr_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_boost__shared_ptrT_gr__howto__square2_ff_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
 static PyMethodDef SwigMethods[] = {
 	 { (char *)"SWIG_PyInstanceMethod_New", (PyCFunction)SWIG_PyInstanceMethod_New, METH_O, NULL},
 	 { (char *)"delete_SwigPyIterator", _wrap_delete_SwigPyIterator, METH_VARARGS, (char *)"delete_SwigPyIterator(SwigPyIterator self)"},
@@ -7221,6 +8830,69 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"square_ff_sptr_get_registered_names", _wrap_square_ff_sptr_get_registered_names, METH_VARARGS, (char *)"square_ff_sptr_get_registered_names(square_ff_sptr self) -> std::vector<(std::string,std::allocator<(std::string)>)>"},
 	 { (char *)"square_ff_sptr__handle_call", (PyCFunction) _wrap_square_ff_sptr__handle_call, METH_VARARGS | METH_KEYWORDS, (char *)"square_ff_sptr__handle_call(square_ff_sptr self, string arg1, PMCC arg2) -> PMCC"},
 	 { (char *)"square_ff_sptr_swigregister", square_ff_sptr_swigregister, METH_VARARGS, NULL},
+	 { (char *)"square2_ff_make", _wrap_square2_ff_make, METH_VARARGS, (char *)"\n"
+		"square2_ff_make() -> sptr\n"
+		"\n"
+		"Return a shared_ptr to a new instance of howto::square2_ff.\n"
+		"\n"
+		"To avoid accidental use of raw pointers, howto::square2_ff's constructor is in a private implementation class. howto::square2_ff::make is the public interface for creating new instances.\n"
+		"\n"
+		"Params: (NONE)\n"
+		""},
+	 { (char *)"new_square2_ff", _wrap_new_square2_ff, METH_VARARGS, (char *)"new_square2_ff() -> square2_ff"},
+	 { (char *)"delete_square2_ff", _wrap_delete_square2_ff, METH_VARARGS, (char *)"delete_square2_ff(square2_ff self)"},
+	 { (char *)"square2_ff_swigregister", square2_ff_swigregister, METH_VARARGS, NULL},
+	 { (char *)"new_square2_ff_sptr", _wrap_new_square2_ff_sptr, METH_VARARGS, (char *)"\n"
+		"square2_ff_sptr()\n"
+		"new_square2_ff_sptr(square2_ff p) -> square2_ff_sptr\n"
+		""},
+	 { (char *)"square2_ff_sptr___deref__", _wrap_square2_ff_sptr___deref__, METH_VARARGS, (char *)"square2_ff_sptr___deref__(square2_ff_sptr self) -> square2_ff"},
+	 { (char *)"delete_square2_ff_sptr", _wrap_delete_square2_ff_sptr, METH_VARARGS, (char *)"delete_square2_ff_sptr(square2_ff_sptr self)"},
+	 { (char *)"square2_ff_sptr_make", _wrap_square2_ff_sptr_make, METH_VARARGS, (char *)"\n"
+		"square2_ff_sptr_make(square2_ff_sptr self) -> sptr\n"
+		"\n"
+		"Return a shared_ptr to a new instance of howto::square2_ff.\n"
+		"\n"
+		"To avoid accidental use of raw pointers, howto::square2_ff's constructor is in a private implementation class. howto::square2_ff::make is the public interface for creating new instances.\n"
+		"\n"
+		"Params: (NONE)\n"
+		""},
+	 { (char *)"square2_ff_sptr_input_signature", _wrap_square2_ff_sptr_input_signature, METH_VARARGS, (char *)"square2_ff_sptr_input_signature(square2_ff_sptr self) -> gr_io_signature_sptr"},
+	 { (char *)"square2_ff_sptr_output_signature", _wrap_square2_ff_sptr_output_signature, METH_VARARGS, (char *)"square2_ff_sptr_output_signature(square2_ff_sptr self) -> gr_io_signature_sptr"},
+	 { (char *)"square2_ff_sptr_history", _wrap_square2_ff_sptr_history, METH_VARARGS, (char *)"square2_ff_sptr_history(square2_ff_sptr self) -> unsigned int"},
+	 { (char *)"square2_ff_sptr_output_multiple", _wrap_square2_ff_sptr_output_multiple, METH_VARARGS, (char *)"square2_ff_sptr_output_multiple(square2_ff_sptr self) -> int"},
+	 { (char *)"square2_ff_sptr_relative_rate", _wrap_square2_ff_sptr_relative_rate, METH_VARARGS, (char *)"square2_ff_sptr_relative_rate(square2_ff_sptr self) -> double"},
+	 { (char *)"square2_ff_sptr_start", _wrap_square2_ff_sptr_start, METH_VARARGS, (char *)"square2_ff_sptr_start(square2_ff_sptr self) -> bool"},
+	 { (char *)"square2_ff_sptr_stop", _wrap_square2_ff_sptr_stop, METH_VARARGS, (char *)"square2_ff_sptr_stop(square2_ff_sptr self) -> bool"},
+	 { (char *)"square2_ff_sptr_nitems_read", (PyCFunction) _wrap_square2_ff_sptr_nitems_read, METH_VARARGS | METH_KEYWORDS, (char *)"square2_ff_sptr_nitems_read(square2_ff_sptr self, unsigned int which_input) -> uint64_t"},
+	 { (char *)"square2_ff_sptr_nitems_written", (PyCFunction) _wrap_square2_ff_sptr_nitems_written, METH_VARARGS | METH_KEYWORDS, (char *)"square2_ff_sptr_nitems_written(square2_ff_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"square2_ff_sptr_max_noutput_items", _wrap_square2_ff_sptr_max_noutput_items, METH_VARARGS, (char *)"square2_ff_sptr_max_noutput_items(square2_ff_sptr self) -> int"},
+	 { (char *)"square2_ff_sptr_set_max_noutput_items", (PyCFunction) _wrap_square2_ff_sptr_set_max_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"square2_ff_sptr_set_max_noutput_items(square2_ff_sptr self, int m)"},
+	 { (char *)"square2_ff_sptr_unset_max_noutput_items", _wrap_square2_ff_sptr_unset_max_noutput_items, METH_VARARGS, (char *)"square2_ff_sptr_unset_max_noutput_items(square2_ff_sptr self)"},
+	 { (char *)"square2_ff_sptr_is_set_max_noutput_items", _wrap_square2_ff_sptr_is_set_max_noutput_items, METH_VARARGS, (char *)"square2_ff_sptr_is_set_max_noutput_items(square2_ff_sptr self) -> bool"},
+	 { (char *)"square2_ff_sptr_max_output_buffer", (PyCFunction) _wrap_square2_ff_sptr_max_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"square2_ff_sptr_max_output_buffer(square2_ff_sptr self, int i) -> long"},
+	 { (char *)"square2_ff_sptr_set_max_output_buffer", _wrap_square2_ff_sptr_set_max_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_max_output_buffer(long max_output_buffer)\n"
+		"square2_ff_sptr_set_max_output_buffer(square2_ff_sptr self, int port, long max_output_buffer)\n"
+		""},
+	 { (char *)"square2_ff_sptr_min_output_buffer", (PyCFunction) _wrap_square2_ff_sptr_min_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"square2_ff_sptr_min_output_buffer(square2_ff_sptr self, int i) -> long"},
+	 { (char *)"square2_ff_sptr_set_min_output_buffer", _wrap_square2_ff_sptr_set_min_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_min_output_buffer(long min_output_buffer)\n"
+		"square2_ff_sptr_set_min_output_buffer(square2_ff_sptr self, int port, long min_output_buffer)\n"
+		""},
+	 { (char *)"square2_ff_sptr_to_element", _wrap_square2_ff_sptr_to_element, METH_VARARGS, (char *)"\n"
+		"to_element() -> Element\n"
+		"square2_ff_sptr_to_element(square2_ff_sptr self) -> Element\n"
+		""},
+	 { (char *)"square2_ff_sptr_equals", (PyCFunction) _wrap_square2_ff_sptr_equals, METH_VARARGS | METH_KEYWORDS, (char *)"square2_ff_sptr_equals(square2_ff_sptr self, Element rhs) -> bool"},
+	 { (char *)"square2_ff_sptr_to_string", _wrap_square2_ff_sptr_to_string, METH_VARARGS, (char *)"square2_ff_sptr_to_string(square2_ff_sptr self) -> string"},
+	 { (char *)"square2_ff_sptr_set_uid", (PyCFunction) _wrap_square2_ff_sptr_set_uid, METH_VARARGS | METH_KEYWORDS, (char *)"square2_ff_sptr_set_uid(square2_ff_sptr self, string uid)"},
+	 { (char *)"square2_ff_sptr_get_uid", _wrap_square2_ff_sptr_get_uid, METH_VARARGS, (char *)"square2_ff_sptr_get_uid(square2_ff_sptr self) -> string"},
+	 { (char *)"square2_ff_sptr_adopt_element", (PyCFunction) _wrap_square2_ff_sptr_adopt_element, METH_VARARGS | METH_KEYWORDS, (char *)"square2_ff_sptr_adopt_element(square2_ff_sptr self, string name, Element child)"},
+	 { (char *)"square2_ff_sptr_locate_element", (PyCFunction) _wrap_square2_ff_sptr_locate_element, METH_VARARGS | METH_KEYWORDS, (char *)"square2_ff_sptr_locate_element(square2_ff_sptr self, string path) -> Element"},
+	 { (char *)"square2_ff_sptr_get_registered_names", _wrap_square2_ff_sptr_get_registered_names, METH_VARARGS, (char *)"square2_ff_sptr_get_registered_names(square2_ff_sptr self) -> std::vector<(std::string,std::allocator<(std::string)>)>"},
+	 { (char *)"square2_ff_sptr__handle_call", (PyCFunction) _wrap_square2_ff_sptr__handle_call, METH_VARARGS | METH_KEYWORDS, (char *)"square2_ff_sptr__handle_call(square2_ff_sptr self, string arg1, PMCC arg2) -> PMCC"},
+	 { (char *)"square2_ff_sptr_swigregister", square2_ff_sptr_swigregister, METH_VARARGS, NULL},
 	 { NULL, NULL, 0, NULL }
 };
 
@@ -7235,6 +8907,9 @@ static void *_p_PMCTo_p_boost__intrusive_ptrT_PMCImpl_t(void *x, int *SWIGUNUSED
 }
 static void *_p_gras__ElementTo_p_gras__Callable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gras::Callable *)  ((gras::Element *) x));
+}
+static void *_p_gr__howto__square2_ffTo_p_gras__Callable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gras::Callable *) (gras::Element *)(gras::Block *)(gr_block *)(gr_sync_block *) ((gr::howto::square2_ff *) x));
 }
 static void *_p_gras__BlockTo_p_gras__Callable(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gras::Callable *) (gras::Element *) ((gras::Block *) x));
@@ -7263,6 +8938,18 @@ static void *_p_gr__howto__square_ffTo_p_gras__Callable(void *x, int *SWIGUNUSED
 static void *_p_PMCTo_p_PMCC(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((PMCC *)  ((PMC *) x));
 }
+static void *_p_gr__howto__square2_ffTo_p_gr_sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr_sync_block *)  ((gr::howto::square2_ff *) x));
+}
+static void *_p_gr_sync_decimatorTo_p_gr_sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr_sync_block *)  ((gr_sync_decimator *) x));
+}
+static void *_p_gr_sync_interpolatorTo_p_gr_sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr_sync_block *)  ((gr_sync_interpolator *) x));
+}
+static void *_p_gr__howto__square2_ffTo_p_gr_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr_block *) (gr_sync_block *) ((gr::howto::square2_ff *) x));
+}
 static void *_p_gr_sync_decimatorTo_p_gr_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr_block *) (gr_sync_block *) ((gr_sync_decimator *) x));
 }
@@ -7274,6 +8961,9 @@ static void *_p_gr_sync_interpolatorTo_p_gr_block(void *x, int *SWIGUNUSEDPARM(n
 }
 static void *_p_gr__howto__square_ffTo_p_gr_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr_block *)  ((gr::howto::square_ff *) x));
+}
+static void *_p_gr__howto__square2_ffTo_p_gras__Element(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gras::Element *) (gras::Block *)(gr_block *)(gr_sync_block *) ((gr::howto::square2_ff *) x));
 }
 static void *_p_gras__BlockTo_p_gras__Element(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gras::Element *)  ((gras::Block *) x));
@@ -7299,6 +8989,9 @@ static void *_p_gr_sync_interpolatorTo_p_gras__Element(void *x, int *SWIGUNUSEDP
 static void *_p_gr__howto__square_ffTo_p_gras__Element(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gras::Element *) (gras::Block *)(gr_block *) ((gr::howto::square_ff *) x));
 }
+static void *_p_gr__howto__square2_ffTo_p_gras__Block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gras::Block *) (gr_block *)(gr_sync_block *) ((gr::howto::square2_ff *) x));
+}
 static void *_p_gr_sync_decimatorTo_p_gras__Block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gras::Block *) (gr_block *)(gr_sync_block *) ((gr_sync_decimator *) x));
 }
@@ -7320,6 +9013,7 @@ static swig_type_info _swigt__p_allocator_type = {"_p_allocator_type", "allocato
 static swig_type_info _swigt__p_boost__int16_t = {"_p_boost__int16_t", "gr_int16 *|boost::int16_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__int32_t = {"_p_boost__int32_t", "boost::int32_t *|gr_int32 *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__intrusive_ptrT_PMCImpl_t = {"_p_boost__intrusive_ptrT_PMCImpl_t", "PMCBase *|boost::intrusive_ptr< PMCImpl > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_boost__shared_ptrT_gr__howto__square2_ff_t = {"_p_boost__shared_ptrT_gr__howto__square2_ff_t", "gr::howto::square2_ff::sptr *|boost::shared_ptr< gr::howto::square2_ff > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__howto__square_ff_t = {"_p_boost__shared_ptrT_gr__howto__square_ff_t", "gr::howto::square_ff::sptr *|boost::shared_ptr< gr::howto::square_ff > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr_io_signature_t = {"_p_boost__shared_ptrT_gr_io_signature_t", "boost::shared_ptr< gr_io_signature > *|gr_io_signature_sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr_message_t = {"_p_boost__shared_ptrT_gr_message_t", "boost::shared_ptr< gr_message > *|gr_message_sptr *", 0, 0, (void*)0, 0};
@@ -7328,11 +9022,12 @@ static swig_type_info _swigt__p_boost__uint16_t = {"_p_boost__uint16_t", "gr_uin
 static swig_type_info _swigt__p_boost__uint32_t = {"_p_boost__uint32_t", "boost::uint32_t *|gr_uint32 *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_char = {"_p_char", "char *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_difference_type = {"_p_difference_type", "difference_type *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_gr__howto__square2_ff = {"_p_gr__howto__square2_ff", "gr::howto::square2_ff *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__howto__square_ff = {"_p_gr__howto__square_ff", "gr::howto::square_ff *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr_block = {"_p_gr_block", "gr_block *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr_sync_decimator = {"_p_gr_sync_decimator", 0, 0, 0, 0, 0};
-static swig_type_info _swigt__p_gr_sync_block = {"_p_gr_sync_block", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_gr_sync_interpolator = {"_p_gr_sync_interpolator", 0, 0, 0, 0, 0};
+static swig_type_info _swigt__p_gr_sync_block = {"_p_gr_sync_block", "gr_sync_block *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gras__Block = {"_p_gras__Block", "gras::Block *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gras__Callable = {"_p_gras__Callable", "gras::Callable *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr_hier_block2 = {"_p_gr_hier_block2", 0, 0, 0, 0, 0};
@@ -7362,6 +9057,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_boost__int16_t,
   &_swigt__p_boost__int32_t,
   &_swigt__p_boost__intrusive_ptrT_PMCImpl_t,
+  &_swigt__p_boost__shared_ptrT_gr__howto__square2_ff_t,
   &_swigt__p_boost__shared_ptrT_gr__howto__square_ff_t,
   &_swigt__p_boost__shared_ptrT_gr_io_signature_t,
   &_swigt__p_boost__shared_ptrT_gr_message_t,
@@ -7370,6 +9066,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_boost__uint32_t,
   &_swigt__p_char,
   &_swigt__p_difference_type,
+  &_swigt__p_gr__howto__square2_ff,
   &_swigt__p_gr__howto__square_ff,
   &_swigt__p_gr_block,
   &_swigt__p_gr_hier_block2,
@@ -7404,6 +9101,7 @@ static swig_cast_info _swigc__p_allocator_type[] = {  {&_swigt__p_allocator_type
 static swig_cast_info _swigc__p_boost__int16_t[] = {  {&_swigt__p_boost__int16_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__int32_t[] = {  {&_swigt__p_boost__int32_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__intrusive_ptrT_PMCImpl_t[] = {  {&_swigt__p_PMCC, _p_PMCCTo_p_boost__intrusive_ptrT_PMCImpl_t, 0, 0},  {&_swigt__p_boost__intrusive_ptrT_PMCImpl_t, 0, 0, 0},  {&_swigt__p_PMC, _p_PMCTo_p_boost__intrusive_ptrT_PMCImpl_t, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_boost__shared_ptrT_gr__howto__square2_ff_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__howto__square2_ff_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__howto__square_ff_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__howto__square_ff_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr_io_signature_t[] = {  {&_swigt__p_boost__shared_ptrT_gr_io_signature_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr_message_t[] = {  {&_swigt__p_boost__shared_ptrT_gr_message_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -7412,16 +9110,17 @@ static swig_cast_info _swigc__p_boost__uint16_t[] = {  {&_swigt__p_boost__uint16
 static swig_cast_info _swigc__p_boost__uint32_t[] = {  {&_swigt__p_boost__uint32_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_difference_type[] = {  {&_swigt__p_difference_type, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__howto__square2_ff[] = {  {&_swigt__p_gr__howto__square2_ff, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__howto__square_ff[] = {  {&_swigt__p_gr__howto__square_ff, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr_sync_decimator[] = {{&_swigt__p_gr_sync_decimator, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr_sync_block[] = {{&_swigt__p_gr_sync_block, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr_sync_interpolator[] = {{&_swigt__p_gr_sync_interpolator, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr_block[] = {  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gr_block, 0, 0},  {&_swigt__p_gr_sync_block, _p_gr_sync_blockTo_p_gr_block, 0, 0},  {&_swigt__p_gr_block, 0, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gr_block, 0, 0},  {&_swigt__p_gr__howto__square_ff, _p_gr__howto__square_ffTo_p_gr_block, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gras__Block[] = {  {&_swigt__p_gras__Block, 0, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gras__Block, 0, 0},  {&_swigt__p_gr_sync_block, _p_gr_sync_blockTo_p_gras__Block, 0, 0},  {&_swigt__p_gr_block, _p_gr_blockTo_p_gras__Block, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gras__Block, 0, 0},  {&_swigt__p_gr__howto__square_ff, _p_gr__howto__square_ffTo_p_gras__Block, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr_block[] = {  {&_swigt__p_gr__howto__square2_ff, _p_gr__howto__square2_ffTo_p_gr_block, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gr_block, 0, 0},  {&_swigt__p_gr_sync_block, _p_gr_sync_blockTo_p_gr_block, 0, 0},  {&_swigt__p_gr_block, 0, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gr_block, 0, 0},  {&_swigt__p_gr__howto__square_ff, _p_gr__howto__square_ffTo_p_gr_block, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr_sync_block[] = {  {&_swigt__p_gr__howto__square2_ff, _p_gr__howto__square2_ffTo_p_gr_sync_block, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gr_sync_block, 0, 0},  {&_swigt__p_gr_sync_block, 0, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gr_sync_block, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gras__Block[] = {  {&_swigt__p_gr__howto__square2_ff, _p_gr__howto__square2_ffTo_p_gras__Block, 0, 0},  {&_swigt__p_gras__Block, 0, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gras__Block, 0, 0},  {&_swigt__p_gr_sync_block, _p_gr_sync_blockTo_p_gras__Block, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gras__Block, 0, 0},  {&_swigt__p_gr_block, _p_gr_blockTo_p_gras__Block, 0, 0},  {&_swigt__p_gr__howto__square_ff, _p_gr__howto__square_ffTo_p_gras__Block, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr_hier_block2[] = {{&_swigt__p_gr_hier_block2, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gras__HierBlock[] = {{&_swigt__p_gras__HierBlock, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gras__Callable[] = {  {&_swigt__p_gras__Element, _p_gras__ElementTo_p_gras__Callable, 0, 0},  {&_swigt__p_gras__Callable, 0, 0, 0},  {&_swigt__p_gras__Block, _p_gras__BlockTo_p_gras__Callable, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gras__Callable, 0, 0},  {&_swigt__p_gr_sync_block, _p_gr_sync_blockTo_p_gras__Callable, 0, 0},  {&_swigt__p_gr_hier_block2, _p_gr_hier_block2To_p_gras__Callable, 0, 0},  {&_swigt__p_gr_block, _p_gr_blockTo_p_gras__Callable, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gras__Callable, 0, 0},  {&_swigt__p_gr__howto__square_ff, _p_gr__howto__square_ffTo_p_gras__Callable, 0, 0},  {&_swigt__p_gras__HierBlock, _p_gras__HierBlockTo_p_gras__Callable, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gras__Element[] = {  {&_swigt__p_gras__Element, 0, 0, 0},  {&_swigt__p_gras__Block, _p_gras__BlockTo_p_gras__Element, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gras__Element, 0, 0},  {&_swigt__p_gr_sync_block, _p_gr_sync_blockTo_p_gras__Element, 0, 0},  {&_swigt__p_gr_hier_block2, _p_gr_hier_block2To_p_gras__Element, 0, 0},  {&_swigt__p_gr_block, _p_gr_blockTo_p_gras__Element, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gras__Element, 0, 0},  {&_swigt__p_gr__howto__square_ff, _p_gr__howto__square_ffTo_p_gras__Element, 0, 0},  {&_swigt__p_gras__HierBlock, _p_gras__HierBlockTo_p_gras__Element, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gras__Callable[] = {  {&_swigt__p_gras__Element, _p_gras__ElementTo_p_gras__Callable, 0, 0},  {&_swigt__p_gr__howto__square2_ff, _p_gr__howto__square2_ffTo_p_gras__Callable, 0, 0},  {&_swigt__p_gras__Callable, 0, 0, 0},  {&_swigt__p_gras__Block, _p_gras__BlockTo_p_gras__Callable, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gras__Callable, 0, 0},  {&_swigt__p_gr_sync_block, _p_gr_sync_blockTo_p_gras__Callable, 0, 0},  {&_swigt__p_gr_hier_block2, _p_gr_hier_block2To_p_gras__Callable, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gras__Callable, 0, 0},  {&_swigt__p_gr_block, _p_gr_blockTo_p_gras__Callable, 0, 0},  {&_swigt__p_gr__howto__square_ff, _p_gr__howto__square_ffTo_p_gras__Callable, 0, 0},  {&_swigt__p_gras__HierBlock, _p_gras__HierBlockTo_p_gras__Callable, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gras__Element[] = {  {&_swigt__p_gras__Element, 0, 0, 0},  {&_swigt__p_gr__howto__square2_ff, _p_gr__howto__square2_ffTo_p_gras__Element, 0, 0},  {&_swigt__p_gras__Block, _p_gras__BlockTo_p_gras__Element, 0, 0},  {&_swigt__p_gr_sync_decimator, _p_gr_sync_decimatorTo_p_gras__Element, 0, 0},  {&_swigt__p_gr_sync_block, _p_gr_sync_blockTo_p_gras__Element, 0, 0},  {&_swigt__p_gr_hier_block2, _p_gr_hier_block2To_p_gras__Element, 0, 0},  {&_swigt__p_gr_sync_interpolator, _p_gr_sync_interpolatorTo_p_gras__Element, 0, 0},  {&_swigt__p_gr_block, _p_gr_blockTo_p_gras__Element, 0, 0},  {&_swigt__p_gr__howto__square_ff, _p_gr__howto__square_ffTo_p_gras__Element, 0, 0},  {&_swigt__p_gras__HierBlock, _p_gras__HierBlockTo_p_gras__Element, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_long_long[] = {  {&_swigt__p_long_long, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_size_type[] = {  {&_swigt__p_size_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_sptr[] = {  {&_swigt__p_sptr, 0, 0, 0},{0, 0, 0, 0}};
@@ -7446,6 +9145,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_boost__int16_t,
   _swigc__p_boost__int32_t,
   _swigc__p_boost__intrusive_ptrT_PMCImpl_t,
+  _swigc__p_boost__shared_ptrT_gr__howto__square2_ff_t,
   _swigc__p_boost__shared_ptrT_gr__howto__square_ff_t,
   _swigc__p_boost__shared_ptrT_gr_io_signature_t,
   _swigc__p_boost__shared_ptrT_gr_message_t,
@@ -7454,6 +9154,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_boost__uint32_t,
   _swigc__p_char,
   _swigc__p_difference_type,
+  _swigc__p_gr__howto__square2_ff,
   _swigc__p_gr__howto__square_ff,
   _swigc__p_gr_block,
   _swigc__p_gr_hier_block2,

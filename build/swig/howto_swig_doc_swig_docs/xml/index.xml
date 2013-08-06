@@ -61,8 +61,6 @@
   </compound>
   <compound refid="classstd_1_1list_1_1const__iterator" kind="class"><name>std::list::const_iterator</name>
   </compound>
-  <compound refid="classstd_1_1deque_1_1const__reverse__iterator" kind="class"><name>std::deque::const_reverse_iterator</name>
-  </compound>
   <compound refid="classstd_1_1map_1_1const__reverse__iterator" kind="class"><name>std::map::const_reverse_iterator</name>
   </compound>
   <compound refid="classstd_1_1multimap_1_1const__reverse__iterator" kind="class"><name>std::multimap::const_reverse_iterator</name>
@@ -77,9 +75,11 @@
   </compound>
   <compound refid="classstd_1_1string_1_1const__reverse__iterator" kind="class"><name>std::string::const_reverse_iterator</name>
   </compound>
+  <compound refid="classstd_1_1list_1_1const__reverse__iterator" kind="class"><name>std::list::const_reverse_iterator</name>
+  </compound>
   <compound refid="classstd_1_1wstring_1_1const__reverse__iterator" kind="class"><name>std::wstring::const_reverse_iterator</name>
   </compound>
-  <compound refid="classstd_1_1list_1_1const__reverse__iterator" kind="class"><name>std::list::const_reverse_iterator</name>
+  <compound refid="classstd_1_1deque_1_1const__reverse__iterator" kind="class"><name>std::deque::const_reverse_iterator</name>
   </compound>
   <compound refid="classstd_1_1deque" kind="class"><name>std::deque</name>
     <member refid="classstd_1_1deque_1a090b92581de438d2e14bedc190f0b0f9" kind="variable"><name>elements</name></member>
@@ -104,7 +104,7 @@
   </compound>
   <compound refid="classstd_1_1istringstream" kind="class"><name>std::istringstream</name>
   </compound>
-  <compound refid="classstd_1_1multiset_1_1iterator" kind="class"><name>std::multiset::iterator</name>
+  <compound refid="classstd_1_1map_1_1iterator" kind="class"><name>std::map::iterator</name>
   </compound>
   <compound refid="classstd_1_1multimap_1_1iterator" kind="class"><name>std::multimap::iterator</name>
   </compound>
@@ -112,13 +112,13 @@
   </compound>
   <compound refid="classstd_1_1basic__string_1_1iterator" kind="class"><name>std::basic_string::iterator</name>
   </compound>
+  <compound refid="classstd_1_1multiset_1_1iterator" kind="class"><name>std::multiset::iterator</name>
+  </compound>
   <compound refid="classstd_1_1vector_1_1iterator" kind="class"><name>std::vector::iterator</name>
   </compound>
   <compound refid="classstd_1_1string_1_1iterator" kind="class"><name>std::string::iterator</name>
   </compound>
   <compound refid="classstd_1_1wstring_1_1iterator" kind="class"><name>std::wstring::iterator</name>
-  </compound>
-  <compound refid="classstd_1_1map_1_1iterator" kind="class"><name>std::map::iterator</name>
   </compound>
   <compound refid="classstd_1_1deque_1_1iterator" kind="class"><name>std::deque::iterator</name>
   </compound>
@@ -160,25 +160,25 @@
   </compound>
   <compound refid="classstd_1_1range__error" kind="class"><name>std::range_error</name>
   </compound>
+  <compound refid="classstd_1_1wstring_1_1reverse__iterator" kind="class"><name>std::wstring::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1string_1_1reverse__iterator" kind="class"><name>std::string::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1vector_1_1reverse__iterator" kind="class"><name>std::vector::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1list_1_1reverse__iterator" kind="class"><name>std::list::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1basic__string_1_1reverse__iterator" kind="class"><name>std::basic_string::reverse_iterator</name>
+  </compound>
+  <compound refid="classstd_1_1set_1_1reverse__iterator" kind="class"><name>std::set::reverse_iterator</name>
+  </compound>
   <compound refid="classstd_1_1map_1_1reverse__iterator" kind="class"><name>std::map::reverse_iterator</name>
   </compound>
   <compound refid="classstd_1_1multimap_1_1reverse__iterator" kind="class"><name>std::multimap::reverse_iterator</name>
   </compound>
   <compound refid="classstd_1_1multiset_1_1reverse__iterator" kind="class"><name>std::multiset::reverse_iterator</name>
   </compound>
-  <compound refid="classstd_1_1basic__string_1_1reverse__iterator" kind="class"><name>std::basic_string::reverse_iterator</name>
-  </compound>
-  <compound refid="classstd_1_1set_1_1reverse__iterator" kind="class"><name>std::set::reverse_iterator</name>
-  </compound>
-  <compound refid="classstd_1_1vector_1_1reverse__iterator" kind="class"><name>std::vector::reverse_iterator</name>
-  </compound>
-  <compound refid="classstd_1_1wstring_1_1reverse__iterator" kind="class"><name>std::wstring::reverse_iterator</name>
-  </compound>
-  <compound refid="classstd_1_1string_1_1reverse__iterator" kind="class"><name>std::string::reverse_iterator</name>
-  </compound>
   <compound refid="classstd_1_1deque_1_1reverse__iterator" kind="class"><name>std::deque::reverse_iterator</name>
-  </compound>
-  <compound refid="classstd_1_1list_1_1reverse__iterator" kind="class"><name>std::list::reverse_iterator</name>
   </compound>
   <compound refid="classstd_1_1runtime__error" kind="class"><name>std::runtime_error</name>
   </compound>
@@ -188,6 +188,10 @@
   <compound refid="classstd_1_1smart__ptr" kind="class"><name>std::smart_ptr</name>
     <member refid="classstd_1_1smart__ptr_1a28b08019309e26ad374ef88cd2641ea3" kind="variable"><name>ptr</name></member>
     <member refid="classstd_1_1smart__ptr_1a34adc9f82172f037139e4b916c275e90" kind="function"><name>operator-&gt;</name></member>
+  </compound>
+  <compound refid="classgr_1_1howto_1_1square2__ff" kind="class"><name>gr::howto::square2_ff</name>
+    <member refid="classgr_1_1howto_1_1square2__ff_1ad25cee9e767b63dd5a6e0ed1c1cab57f" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1howto_1_1square2__ff_1af3687e06d141537e7aea6b63df7d1f49" kind="function"><name>make</name></member>
   </compound>
   <compound refid="classgr_1_1howto_1_1square__ff" kind="class"><name>gr::howto::square_ff</name>
     <member refid="classgr_1_1howto_1_1square__ff_1a447c53a602aa7692878b13932472afab" kind="typedef"><name>sptr</name></member>
@@ -244,6 +248,8 @@
   </compound>
   <compound refid="api_8h" kind="file"><name>api.h</name>
     <member refid="api_8h_1a7a9fda890b8e28fac667cbd66796f13b" kind="define"><name>HOWTO_API</name></member>
+  </compound>
+  <compound refid="square2__ff_8h" kind="file"><name>square2_ff.h</name>
   </compound>
   <compound refid="square__ff_8h" kind="file"><name>square_ff.h</name>
   </compound>

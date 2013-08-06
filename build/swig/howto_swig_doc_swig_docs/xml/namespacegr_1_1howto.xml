@@ -2,11 +2,12 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
   <compounddef id="namespacegr_1_1howto" kind="namespace">
     <compoundname>gr::howto</compoundname>
+    <innerclass refid="classgr_1_1howto_1_1square2__ff" prot="public">gr::howto::square2_ff</innerclass>
     <innerclass refid="classgr_1_1howto_1_1square__ff" prot="public">gr::howto::square_ff</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/aviral/gr-howto/include/howto/square_ff.h" line="29"/>
+    <location file="/home/aviral/gr-howto/include/howto/square2_ff.h" line="29"/>
   </compounddef>
 </doxygen>

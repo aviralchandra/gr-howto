@@ -198,6 +198,30 @@ qa_howto.cc.s:
 	cd /home/aviral/gr-howto/build && $(MAKE) -f lib/CMakeFiles/test-howto.dir/build.make lib/CMakeFiles/test-howto.dir/qa_howto.cc.s
 .PHONY : qa_howto.cc.s
 
+qa_square2_ff.o: qa_square2_ff.cc.o
+.PHONY : qa_square2_ff.o
+
+# target to build an object file
+qa_square2_ff.cc.o:
+	cd /home/aviral/gr-howto/build && $(MAKE) -f lib/CMakeFiles/test-howto.dir/build.make lib/CMakeFiles/test-howto.dir/qa_square2_ff.cc.o
+.PHONY : qa_square2_ff.cc.o
+
+qa_square2_ff.i: qa_square2_ff.cc.i
+.PHONY : qa_square2_ff.i
+
+# target to preprocess a source file
+qa_square2_ff.cc.i:
+	cd /home/aviral/gr-howto/build && $(MAKE) -f lib/CMakeFiles/test-howto.dir/build.make lib/CMakeFiles/test-howto.dir/qa_square2_ff.cc.i
+.PHONY : qa_square2_ff.cc.i
+
+qa_square2_ff.s: qa_square2_ff.cc.s
+.PHONY : qa_square2_ff.s
+
+# target to generate assembly for a file
+qa_square2_ff.cc.s:
+	cd /home/aviral/gr-howto/build && $(MAKE) -f lib/CMakeFiles/test-howto.dir/build.make lib/CMakeFiles/test-howto.dir/qa_square2_ff.cc.s
+.PHONY : qa_square2_ff.cc.s
+
 qa_square_ff.o: qa_square_ff.cc.o
 .PHONY : qa_square_ff.o
 
@@ -221,6 +245,30 @@ qa_square_ff.s: qa_square_ff.cc.s
 qa_square_ff.cc.s:
 	cd /home/aviral/gr-howto/build && $(MAKE) -f lib/CMakeFiles/test-howto.dir/build.make lib/CMakeFiles/test-howto.dir/qa_square_ff.cc.s
 .PHONY : qa_square_ff.cc.s
+
+square2_ff_impl.o: square2_ff_impl.cc.o
+.PHONY : square2_ff_impl.o
+
+# target to build an object file
+square2_ff_impl.cc.o:
+	cd /home/aviral/gr-howto/build && $(MAKE) -f lib/CMakeFiles/gnuradio-howto.dir/build.make lib/CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.o
+.PHONY : square2_ff_impl.cc.o
+
+square2_ff_impl.i: square2_ff_impl.cc.i
+.PHONY : square2_ff_impl.i
+
+# target to preprocess a source file
+square2_ff_impl.cc.i:
+	cd /home/aviral/gr-howto/build && $(MAKE) -f lib/CMakeFiles/gnuradio-howto.dir/build.make lib/CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.i
+.PHONY : square2_ff_impl.cc.i
+
+square2_ff_impl.s: square2_ff_impl.cc.s
+.PHONY : square2_ff_impl.s
+
+# target to generate assembly for a file
+square2_ff_impl.cc.s:
+	cd /home/aviral/gr-howto/build && $(MAKE) -f lib/CMakeFiles/gnuradio-howto.dir/build.make lib/CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.s
+.PHONY : square2_ff_impl.cc.s
 
 square_ff_impl.o: square_ff_impl.cc.o
 .PHONY : square_ff_impl.o
@@ -288,9 +336,15 @@ help:
 	@echo "... qa_howto.o"
 	@echo "... qa_howto.i"
 	@echo "... qa_howto.s"
+	@echo "... qa_square2_ff.o"
+	@echo "... qa_square2_ff.i"
+	@echo "... qa_square2_ff.s"
 	@echo "... qa_square_ff.o"
 	@echo "... qa_square_ff.i"
 	@echo "... qa_square_ff.s"
+	@echo "... square2_ff_impl.o"
+	@echo "... square2_ff_impl.i"
+	@echo "... square2_ff_impl.s"
 	@echo "... square_ff_impl.o"
 	@echo "... square_ff_impl.i"
 	@echo "... square_ff_impl.s"

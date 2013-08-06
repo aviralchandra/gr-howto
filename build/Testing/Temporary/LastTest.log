@@ -1,19 +1,19 @@
-Start testing: Aug 05 17:19 IST
+Start testing: Aug 07 02:08 IST
 ----------------------------------------------------------
 1/2 Testing: test_howto
 1/2 Test: test_howto
 Command: "/bin/sh" "/home/aviral/gr-howto/build/lib/test_howto_test.sh"
 Directory: /home/aviral/gr-howto/build/lib
-"test_howto" start time: Aug 05 17:19 IST
+"test_howto" start time: Aug 07 02:08 IST
 Output:
 ----------------------------------------------------------
-.
+..
 
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"test_howto" end time: Aug 05 17:19 IST
+"test_howto" end time: Aug 07 02:08 IST
 "test_howto" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -21,23 +21,25 @@ Test Passed.
 2/2 Test: qa_square_ff
 Command: "/bin/sh" "/home/aviral/gr-howto/build/python/qa_square_ff_test.sh"
 Directory: /home/aviral/gr-howto/build/python
-"qa_square_ff" start time: Aug 05 17:19 IST
+"qa_square_ff" start time: Aug 07 02:08 IST
 Output:
 ----------------------------------------------------------
 >>> GRAS: The debug asserts are enabled. <<<
 Created default thread pool with 4 threads.
 Created default thread pool with 4 threads.
-.
+Created default thread pool with 4 threads.
+Created default thread pool with 4 threads.
+..
 ----------------------------------------------------------------------
-Ran 1 test in 0.202s
+Ran 2 tests in 0.404s
 
 OK
 <end of output>
-Test time =   0.71 sec
+Test time =   1.11 sec
 ----------------------------------------------------------
 Test Passed.
-"qa_square_ff" end time: Aug 05 17:19 IST
-"qa_square_ff" time elapsed: 00:00:00
+"qa_square_ff" end time: Aug 07 02:08 IST
+"qa_square_ff" time elapsed: 00:00:01
 ----------------------------------------------------------
 
-End testing: Aug 05 17:19 IST
+End testing: Aug 07 02:08 IST

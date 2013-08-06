@@ -9,8 +9,11 @@
 
 %{
 #include "howto/square_ff.h"
+#include "howto/square2_ff.h"
 %}
 
 
 %include "howto/square_ff.h"
 GR_SWIG_BLOCK_MAGIC2(howto, square_ff);
+%include "howto/square2_ff.h"
+GR_SWIG_BLOCK_MAGIC2(howto, square2_ff);

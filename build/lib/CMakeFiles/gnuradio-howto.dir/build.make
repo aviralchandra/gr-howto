@@ -69,14 +69,39 @@ lib/CMakeFiles/gnuradio-howto.dir/square_ff_impl.cc.o.provides: lib/CMakeFiles/g
 
 lib/CMakeFiles/gnuradio-howto.dir/square_ff_impl.cc.o.provides.build: lib/CMakeFiles/gnuradio-howto.dir/square_ff_impl.cc.o
 
+lib/CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.o: lib/CMakeFiles/gnuradio-howto.dir/flags.make
+lib/CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.o: ../lib/square2_ff_impl.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/aviral/gr-howto/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.o"
+	cd /home/aviral/gr-howto/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.o -c /home/aviral/gr-howto/lib/square2_ff_impl.cc
+
+lib/CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.i"
+	cd /home/aviral/gr-howto/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/aviral/gr-howto/lib/square2_ff_impl.cc > CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.i
+
+lib/CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.s"
+	cd /home/aviral/gr-howto/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/aviral/gr-howto/lib/square2_ff_impl.cc -o CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.s
+
+lib/CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.o.requires:
+.PHONY : lib/CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.o.requires
+
+lib/CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.o.provides: lib/CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.o.requires
+	$(MAKE) -f lib/CMakeFiles/gnuradio-howto.dir/build.make lib/CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.o.provides.build
+.PHONY : lib/CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.o.provides
+
+lib/CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.o.provides.build: lib/CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.o
+
 # Object files for target gnuradio-howto
 gnuradio__howto_OBJECTS = \
-"CMakeFiles/gnuradio-howto.dir/square_ff_impl.cc.o"
+"CMakeFiles/gnuradio-howto.dir/square_ff_impl.cc.o" \
+"CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.o"
 
 # External object files for target gnuradio-howto
 gnuradio__howto_EXTERNAL_OBJECTS =
 
 lib/libgnuradio-howto.so: lib/CMakeFiles/gnuradio-howto.dir/square_ff_impl.cc.o
+lib/libgnuradio-howto.so: lib/CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.o
 lib/libgnuradio-howto.so: /usr/lib/libboost_filesystem-mt.so
 lib/libgnuradio-howto.so: /usr/lib/libboost_system-mt.so
 lib/libgnuradio-howto.so: /usr/local/lib/libgruel.so
@@ -91,6 +116,7 @@ lib/CMakeFiles/gnuradio-howto.dir/build: lib/libgnuradio-howto.so
 .PHONY : lib/CMakeFiles/gnuradio-howto.dir/build
 
 lib/CMakeFiles/gnuradio-howto.dir/requires: lib/CMakeFiles/gnuradio-howto.dir/square_ff_impl.cc.o.requires
+lib/CMakeFiles/gnuradio-howto.dir/requires: lib/CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.o.requires
 .PHONY : lib/CMakeFiles/gnuradio-howto.dir/requires
 
 lib/CMakeFiles/gnuradio-howto.dir/clean:

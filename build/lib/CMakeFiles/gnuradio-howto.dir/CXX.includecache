@@ -10,22 +10,22 @@
 gruel/attributes.h
 -
 
-../include/howto/square_ff.h
+../include/howto/square2_ff.h
 howto/api.h
 -
-gr_block.h
+gr_sync_block.h
 -
 
-/home/aviral/gr-howto/lib/square_ff_impl.cc
+/home/aviral/gr-howto/lib/square2_ff_impl.cc
 config.h
 /home/aviral/gr-howto/lib/config.h
 gr_io_signature.h
 -
-square_ff_impl.h
-/home/aviral/gr-howto/lib/square_ff_impl.h
+square2_ff_impl.h
+/home/aviral/gr-howto/lib/square2_ff_impl.h
 
-/home/aviral/gr-howto/lib/square_ff_impl.h
-howto/square_ff.h
+/home/aviral/gr-howto/lib/square2_ff_impl.h
+howto/square2_ff.h
 -
 
 /usr/local/include/PMC/Config.hpp
@@ -100,6 +100,10 @@ gr_runtime_types.h
 gr_core_api.h
 -
 gr_types.h
+-
+
+/usr/local/include/gnuradio/gr_sync_block.h
+gr_block.h
 -
 
 /usr/local/include/gnuradio/gr_tags.h

@@ -1,5 +1,6 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/gnuradio-howto.dir/square_ff_impl.cc.o"
+  "CMakeFiles/gnuradio-howto.dir/square2_ff_impl.cc.o"
   "libgnuradio-howto.pdb"
   "libgnuradio-howto.so"
 )

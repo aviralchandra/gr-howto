@@ -3,6 +3,7 @@
   <compounddef id="dir_0811e54ebe856e4b9330830ece592e8a" kind="dir">
     <compoundname>/home/aviral/gr-howto/include/howto/</compoundname>
     <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="square2__ff_8h">square2_ff.h</innerfile>
     <innerfile refid="square__ff_8h">square_ff.h</innerfile>
     <briefdescription>
     </briefdescription>

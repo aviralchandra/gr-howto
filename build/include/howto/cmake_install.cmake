@@ -36,6 +36,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/howto" TYPE FILE FILES
     "/home/aviral/gr-howto/include/howto/api.h"
     "/home/aviral/gr-howto/include/howto/square_ff.h"
+    "/home/aviral/gr-howto/include/howto/square2_ff.h"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

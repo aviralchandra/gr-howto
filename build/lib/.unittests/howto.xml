@@ -5,9 +5,12 @@
     <Test id="1">
       <Name>gr::howto::qa_square_ff::t1</Name>
     </Test>
+    <Test id="2">
+      <Name>gr::howto::qa_square2_ff::t1</Name>
+    </Test>
   </SuccessfulTests>
   <Statistics>
-    <Tests>1</Tests>
+    <Tests>2</Tests>
     <FailuresTotal>0</FailuresTotal>
     <Errors>0</Errors>
     <Failures>0</Failures>

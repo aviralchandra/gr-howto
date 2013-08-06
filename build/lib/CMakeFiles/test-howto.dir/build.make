@@ -92,9 +92,32 @@ lib/CMakeFiles/test-howto.dir/qa_howto.cc.o.provides: lib/CMakeFiles/test-howto.
 
 lib/CMakeFiles/test-howto.dir/qa_howto.cc.o.provides.build: lib/CMakeFiles/test-howto.dir/qa_howto.cc.o
 
+lib/CMakeFiles/test-howto.dir/qa_square2_ff.cc.o: lib/CMakeFiles/test-howto.dir/flags.make
+lib/CMakeFiles/test-howto.dir/qa_square2_ff.cc.o: ../lib/qa_square2_ff.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/aviral/gr-howto/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/test-howto.dir/qa_square2_ff.cc.o"
+	cd /home/aviral/gr-howto/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-howto.dir/qa_square2_ff.cc.o -c /home/aviral/gr-howto/lib/qa_square2_ff.cc
+
+lib/CMakeFiles/test-howto.dir/qa_square2_ff.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-howto.dir/qa_square2_ff.cc.i"
+	cd /home/aviral/gr-howto/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/aviral/gr-howto/lib/qa_square2_ff.cc > CMakeFiles/test-howto.dir/qa_square2_ff.cc.i
+
+lib/CMakeFiles/test-howto.dir/qa_square2_ff.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-howto.dir/qa_square2_ff.cc.s"
+	cd /home/aviral/gr-howto/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/aviral/gr-howto/lib/qa_square2_ff.cc -o CMakeFiles/test-howto.dir/qa_square2_ff.cc.s
+
+lib/CMakeFiles/test-howto.dir/qa_square2_ff.cc.o.requires:
+.PHONY : lib/CMakeFiles/test-howto.dir/qa_square2_ff.cc.o.requires
+
+lib/CMakeFiles/test-howto.dir/qa_square2_ff.cc.o.provides: lib/CMakeFiles/test-howto.dir/qa_square2_ff.cc.o.requires
+	$(MAKE) -f lib/CMakeFiles/test-howto.dir/build.make lib/CMakeFiles/test-howto.dir/qa_square2_ff.cc.o.provides.build
+.PHONY : lib/CMakeFiles/test-howto.dir/qa_square2_ff.cc.o.provides
+
+lib/CMakeFiles/test-howto.dir/qa_square2_ff.cc.o.provides.build: lib/CMakeFiles/test-howto.dir/qa_square2_ff.cc.o
+
 lib/CMakeFiles/test-howto.dir/qa_square_ff.cc.o: lib/CMakeFiles/test-howto.dir/flags.make
 lib/CMakeFiles/test-howto.dir/qa_square_ff.cc.o: ../lib/qa_square_ff.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/aviral/gr-howto/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/aviral/gr-howto/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/test-howto.dir/qa_square_ff.cc.o"
 	cd /home/aviral/gr-howto/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-howto.dir/qa_square_ff.cc.o -c /home/aviral/gr-howto/lib/qa_square_ff.cc
 
@@ -119,6 +142,7 @@ lib/CMakeFiles/test-howto.dir/qa_square_ff.cc.o.provides.build: lib/CMakeFiles/t
 test__howto_OBJECTS = \
 "CMakeFiles/test-howto.dir/test_howto.cc.o" \
 "CMakeFiles/test-howto.dir/qa_howto.cc.o" \
+"CMakeFiles/test-howto.dir/qa_square2_ff.cc.o" \
 "CMakeFiles/test-howto.dir/qa_square_ff.cc.o"
 
 # External object files for target test-howto
@@ -126,6 +150,7 @@ test__howto_EXTERNAL_OBJECTS =
 
 lib/test-howto: lib/CMakeFiles/test-howto.dir/test_howto.cc.o
 lib/test-howto: lib/CMakeFiles/test-howto.dir/qa_howto.cc.o
+lib/test-howto: lib/CMakeFiles/test-howto.dir/qa_square2_ff.cc.o
 lib/test-howto: lib/CMakeFiles/test-howto.dir/qa_square_ff.cc.o
 lib/test-howto: /usr/local/lib/libgnuradio-core.so
 lib/test-howto: /usr/lib/libboost_filesystem-mt.so
@@ -147,6 +172,7 @@ lib/CMakeFiles/test-howto.dir/build: lib/test-howto
 
 lib/CMakeFiles/test-howto.dir/requires: lib/CMakeFiles/test-howto.dir/test_howto.cc.o.requires
 lib/CMakeFiles/test-howto.dir/requires: lib/CMakeFiles/test-howto.dir/qa_howto.cc.o.requires
+lib/CMakeFiles/test-howto.dir/requires: lib/CMakeFiles/test-howto.dir/qa_square2_ff.cc.o.requires
 lib/CMakeFiles/test-howto.dir/requires: lib/CMakeFiles/test-howto.dir/qa_square_ff.cc.o.requires
 .PHONY : lib/CMakeFiles/test-howto.dir/requires
 

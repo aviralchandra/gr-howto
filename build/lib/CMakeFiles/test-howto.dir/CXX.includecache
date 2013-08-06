@@ -10,48 +10,24 @@
 gruel/attributes.h
 -
 
-../include/howto/square_ff.h
+../include/howto/square2_ff.h
 howto/api.h
 -
-gr_block.h
+gr_sync_block.h
 -
 
-/home/aviral/gr-howto/lib/qa_howto.cc
-qa_howto.h
-/home/aviral/gr-howto/lib/qa_howto.h
-qa_square_ff.h
-/home/aviral/gr-howto/lib/qa_square_ff.h
-
-/home/aviral/gr-howto/lib/qa_howto.h
-gruel/attributes.h
--
-cppunit/TestSuite.h
--
-
-/home/aviral/gr-howto/lib/qa_square_ff.cc
-qa_square_ff.h
-/home/aviral/gr-howto/lib/qa_square_ff.h
+/home/aviral/gr-howto/lib/qa_square2_ff.cc
+qa_square2_ff.h
+/home/aviral/gr-howto/lib/qa_square2_ff.h
 cppunit/TestAssert.h
 -
-howto/square_ff.h
+howto/square2_ff.h
 -
 
-/home/aviral/gr-howto/lib/qa_square_ff.h
+/home/aviral/gr-howto/lib/qa_square2_ff.h
 cppunit/extensions/HelperMacros.h
 -
 cppunit/TestCase.h
--
-
-/home/aviral/gr-howto/lib/test_howto.cc
-cppunit/TextTestRunner.h
--
-cppunit/XmlOutputter.h
--
-gr_unittests.h
--
-qa_howto.h
-/home/aviral/gr-howto/lib/qa_howto.h
-iostream
 -
 
 /usr/local/include/PMC/Config.hpp
@@ -128,6 +104,10 @@ gr_core_api.h
 gr_types.h
 -
 
+/usr/local/include/gnuradio/gr_sync_block.h
+gr_block.h
+-
+
 /usr/local/include/gnuradio/gr_tags.h
 gr_core_api.h
 -
@@ -146,30 +126,6 @@ gras/hier_block.hpp
 boost/cstdint.hpp
 -
 complex
--
-
-/usr/local/include/gnuradio/gr_unittests.h
-config.h
-/usr/local/include/gnuradio/config.h
-gr_core_api.h
--
-stdio.h
--
-stdlib.h
--
-string.h
--
-sys/types.h
--
-sys/stat.h
--
-unistd.h
--
-string
--
-boost/filesystem/operations.hpp
--
-boost/filesystem/path.hpp
 -
 
 /usr/local/include/gras/block.hpp

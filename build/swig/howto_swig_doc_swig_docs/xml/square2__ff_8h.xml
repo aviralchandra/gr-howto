@@ -1,32 +1,32 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
-  <compounddef id="square__ff_8h" kind="file">
-    <compoundname>square_ff.h</compoundname>
+  <compounddef id="square2__ff_8h" kind="file">
+    <compoundname>square2_ff.h</compoundname>
     <includes refid="api_8h" local="no">howto/api.h</includes>
-    <includes local="no">gr_block.h</includes>
+    <includes local="no">gr_sync_block.h</includes>
     <incdepgraph>
-      <node id="12">
+      <node id="5">
+        <label>/home/aviral/gr-howto/include/howto/square2_ff.h</label>
+        <link refid="square2_ff.h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
         <label>gruel/attributes.h</label>
       </node>
-      <node id="10">
-        <label>/home/aviral/gr-howto/include/howto/square_ff.h</label>
-        <link refid="square_ff.h"/>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="13" relation="include">
-        </childnode>
+      <node id="8">
+        <label>gr_sync_block.h</label>
       </node>
-      <node id="13">
-        <label>gr_block.h</label>
-      </node>
-      <node id="11">
+      <node id="6">
         <label>howto/api.h</label>
         <link refid="api_8h"/>
-        <childnode refid="12" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
     </incdepgraph>
-    <innerclass refid="classgr_1_1howto_1_1square__ff" prot="public">gr::howto::square_ff</innerclass>
+    <innerclass refid="classgr_1_1howto_1_1square2__ff" prot="public">gr::howto::square2_ff</innerclass>
     <innernamespace refid="namespacegr">gr</innernamespace>
     <innernamespace refid="namespacegr_1_1howto">gr::howto</innernamespace>
     <briefdescription>
@@ -55,29 +55,29 @@
 <codeline lineno="19"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_HOWTO_SQUARE_FF_H</highlight></codeline>
-<codeline lineno="23"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_HOWTO_SQUARE_FF_H</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>INCLUDED_HOWTO_SQUARE2_FF_H</highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>INCLUDED_HOWTO_SQUARE2_FF_H</highlight></codeline>
 <codeline lineno="24"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="api_8h" kindref="compound">howto/api.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gr_block.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gr_sync_block.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">gr<sp/>{</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">howto<sp/>{</highlight></codeline>
+<codeline lineno="28" refid="namespacegr" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">gr<sp/>{</highlight></codeline>
+<codeline lineno="29" refid="namespacegr_1_1howto" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">howto<sp/>{</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="classgr_1_1howto_1_1square__ff" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="api_8h_1a7a9fda890b8e28fac667cbd66796f13b" kindref="member">HOWTO_API</ref><sp/><ref refid="classgr_1_1howto_1_1square__ff" kindref="compound" tooltip="&amp;lt;+description of block+&amp;gt;">square_ff</ref><sp/>:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>gr_block</highlight></codeline>
+<codeline lineno="36" refid="classgr_1_1howto_1_1square2__ff" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="api_8h_1a7a9fda890b8e28fac667cbd66796f13b" kindref="member">HOWTO_API</ref><sp/><ref refid="classgr_1_1howto_1_1square2__ff" kindref="compound" tooltip="&amp;lt;+description of block+&amp;gt;">square2_ff</ref><sp/>:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>gr_sync_block</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="39" refid="classgr_1_1howto_1_1square__ff_1a447c53a602aa7692878b13932472afab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>boost::shared_ptr&lt;square_ff&gt;<sp/><ref refid="classgr_1_1howto_1_1square__ff_1a447c53a602aa7692878b13932472afab" kindref="member">sptr</ref>;</highlight></codeline>
+<codeline lineno="39" refid="classgr_1_1howto_1_1square2__ff_1ad25cee9e767b63dd5a6e0ed1c1cab57f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>boost::shared_ptr&lt;square2_ff&gt;<sp/><ref refid="classgr_1_1howto_1_1square2__ff_1ad25cee9e767b63dd5a6e0ed1c1cab57f" kindref="member">sptr</ref>;</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1howto_1_1square__ff_1a447c53a602aa7692878b13932472afab" kindref="member">sptr</ref><sp/>make();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classgr_1_1howto_1_1square2__ff_1ad25cee9e767b63dd5a6e0ed1c1cab57f" kindref="member">sptr</ref><sp/>make();</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
 <codeline lineno="52"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>howto</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="53"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>gr</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_HOWTO_SQUARE_FF_H<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>INCLUDED_HOWTO_SQUARE2_FF_H<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/home/aviral/gr-howto/include/howto/square_ff.h"/>
+    <location file="/home/aviral/gr-howto/include/howto/square2_ff.h"/>
   </compounddef>
 </doxygen>

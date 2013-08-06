@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.6.1">
+  <compounddef id="classgr_1_1howto_1_1square2__ff" kind="class" prot="public">
+    <compoundname>gr::howto::square2_ff</compoundname>
+    <includes refid="square2__ff_8h" local="no">square2_ff.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1howto_1_1square2__ff_1ad25cee9e767b63dd5a6e0ed1c1cab57f" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1howto_1_1square2__ff" kindref="compound">square2_ff</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;square2_ff&gt; gr::howto::square2_ff::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/gr-howto/include/howto/square2_ff.h" line="39" bodyfile="/home/aviral/gr-howto/include/howto/square2_ff.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1howto_1_1square2__ff_1af3687e06d141537e7aea6b63df7d1f49" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1howto_1_1square2__ff_1ad25cee9e767b63dd5a6e0ed1c1cab57f" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::howto::square2_ff::make</definition>
+        <argsstring>()</argsstring>
+        <name>make</name>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1howto_1_1square2__ff" kindref="compound">howto::square2_ff</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1howto_1_1square2__ff" kindref="compound">howto::square2_ff</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1howto_1_1square2__ff_1af3687e06d141537e7aea6b63df7d1f49" kindref="member">howto::square2_ff::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/aviral/gr-howto/include/howto/square2_ff.h" line="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/aviral/gr-howto/include/howto/square2_ff.h" line="37" bodyfile="/home/aviral/gr-howto/include/howto/square2_ff.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1howto_1_1square2__ff_1af3687e06d141537e7aea6b63df7d1f49" prot="public" virt="non-virtual"><scope>gr::howto::square2_ff</scope><name>make</name></member>
+      <member refid="classgr_1_1howto_1_1square2__ff_1ad25cee9e767b63dd5a6e0ed1c1cab57f" prot="public" virt="non-virtual"><scope>gr::howto::square2_ff</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

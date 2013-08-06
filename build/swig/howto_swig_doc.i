@@ -70,8 +70,6 @@ Params: (NONE)"
 
 %feature("docstring") std::list::const_iterator "STL iterator class."
 
-%feature("docstring") std::deque::const_reverse_iterator "STL iterator class."
-
 %feature("docstring") std::map::const_reverse_iterator "STL iterator class."
 
 %feature("docstring") std::multimap::const_reverse_iterator "STL iterator class."
@@ -86,9 +84,11 @@ Params: (NONE)"
 
 %feature("docstring") std::string::const_reverse_iterator "STL iterator class."
 
+%feature("docstring") std::list::const_reverse_iterator "STL iterator class."
+
 %feature("docstring") std::wstring::const_reverse_iterator "STL iterator class."
 
-%feature("docstring") std::list::const_reverse_iterator "STL iterator class."
+%feature("docstring") std::deque::const_reverse_iterator "STL iterator class."
 
 %feature("docstring") std::deque "STL class."
 
@@ -112,7 +112,7 @@ Params: (NONE)"
 
 %feature("docstring") std::istringstream "STL class."
 
-%feature("docstring") std::multiset::iterator "STL iterator class."
+%feature("docstring") std::map::iterator "STL iterator class."
 
 %feature("docstring") std::multimap::iterator "STL iterator class."
 
@@ -120,13 +120,13 @@ Params: (NONE)"
 
 %feature("docstring") std::basic_string::iterator "STL iterator class."
 
+%feature("docstring") std::multiset::iterator "STL iterator class."
+
 %feature("docstring") std::vector::iterator "STL iterator class."
 
 %feature("docstring") std::string::iterator "STL iterator class."
 
 %feature("docstring") std::wstring::iterator "STL iterator class."
-
-%feature("docstring") std::map::iterator "STL iterator class."
 
 %feature("docstring") std::deque::iterator "STL iterator class."
 
@@ -160,25 +160,25 @@ Params: (NONE)"
 
 %feature("docstring") std::range_error "STL class."
 
+%feature("docstring") std::wstring::reverse_iterator "STL iterator class."
+
+%feature("docstring") std::string::reverse_iterator "STL iterator class."
+
+%feature("docstring") std::vector::reverse_iterator "STL iterator class."
+
+%feature("docstring") std::list::reverse_iterator "STL iterator class."
+
+%feature("docstring") std::basic_string::reverse_iterator "STL iterator class."
+
+%feature("docstring") std::set::reverse_iterator "STL iterator class."
+
 %feature("docstring") std::map::reverse_iterator "STL iterator class."
 
 %feature("docstring") std::multimap::reverse_iterator "STL iterator class."
 
 %feature("docstring") std::multiset::reverse_iterator "STL iterator class."
 
-%feature("docstring") std::basic_string::reverse_iterator "STL iterator class."
-
-%feature("docstring") std::set::reverse_iterator "STL iterator class."
-
-%feature("docstring") std::vector::reverse_iterator "STL iterator class."
-
-%feature("docstring") std::wstring::reverse_iterator "STL iterator class."
-
-%feature("docstring") std::string::reverse_iterator "STL iterator class."
-
 %feature("docstring") std::deque::reverse_iterator "STL iterator class."
-
-%feature("docstring") std::list::reverse_iterator "STL iterator class."
 
 %feature("docstring") std::runtime_error "STL class."
 
@@ -187,6 +187,14 @@ Params: (NONE)"
 %feature("docstring") std::smart_ptr "STL class."
 
 %feature("docstring") std::smart_ptr::operator-> "STL member.
+
+Params: (NONE)"
+
+%feature("docstring") gr::howto::square2_ff "<+description of block+>"
+
+%feature("docstring") gr::howto::square2_ff::make "Return a shared_ptr to a new instance of howto::square2_ff.
+
+To avoid accidental use of raw pointers, howto::square2_ff's constructor is in a private implementation class. howto::square2_ff::make is the public interface for creating new instances.
 
 Params: (NONE)"
 

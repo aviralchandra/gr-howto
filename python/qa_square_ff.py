@@ -30,8 +30,9 @@ class qa_square_ff (gr_unittest.TestCase):
         self.tb = None
 
     def test_001_t (self):
-        src_data = (-3, 4, -5.5, 2, 3)
-	expected_result = (9,16, 30.25, 4, 9)
+        # set up fg
+      	src_data = (-3, 4, -5.5, 2, 3)
+	expected_result = (9, 16, 30.25, 4, 9)
 	src = gr.vector_source_f(src_data)
 	sqr = howto.square_ff()
 	dst = gr.vector_sink_f()
@@ -39,9 +40,21 @@ class qa_square_ff (gr_unittest.TestCase):
 	self.tb.connect(sqr, dst)
 	self.tb.run()
 	result_data = dst.data()
-	self.assertFloatTuplesAlmostEqual(expected_result, result_data, 6)# set up fg
-       # self.tb.run ()
-        # check data
+	self.assertFloatTuplesAlmostEqual(expected_result, result_data, 6)
+	# check data
+	
+    def test_002_square2_ff (self):
+        # set up fg
+        src_data = (-3, 4, -5.5, 2, 3)
+        expected_result = (9, 16, 30.25, 4, 9)
+        src = gr.vector_source_f(src_data)
+        sqr = howto.square_ff()
+        dst = gr.vector_sink_f()
+        self.tb.connect(src, sqr)
+        self.tb.connect(sqr, dst)
+        self.tb.run()
+        result_data = dst.data()
+        self.assertFloatTuplesAlmostEqual(expected_result, result_data, 6)
 
 
 if __name__ == '__main__':

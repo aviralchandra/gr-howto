@@ -1,0 +1,15 @@
+/usr/local/include/howto/api.h
+/usr/local/include/howto/square_ff.h
+/usr/local/include/howto/square2_ff.h
+/usr/local/lib/libgnuradio-howto.so
+/usr/local/lib/python2.7/dist-packages/howto/_howto_swig.so
+/usr/local/lib/python2.7/dist-packages/howto/howto_swig.py
+/usr/local/lib/python2.7/dist-packages/howto/howto_swig.pyc
+/usr/local/lib/python2.7/dist-packages/howto/howto_swig.pyo
+/usr/local/include/howto/howto/swig/howto_swig.i
+/usr/local/include/howto/howto/swig/howto_swig_doc.i
+/usr/local/lib/python2.7/dist-packages/custom/__init__.py
+/usr/local/lib/python2.7/dist-packages/custom/__init__.pyc
+/usr/local/lib/python2.7/dist-packages/custom/__init__.pyo
+/usr/local/share/gnuradio/grc/blocks/howto_square_ff.xml
+/usr/local/share/gnuradio/grc/blocks/howto_square2_ff.xml

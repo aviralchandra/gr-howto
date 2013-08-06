@@ -346,5 +346,193 @@ square_ff_sptr_swigregister(square_ff_sptr)
 square_ff_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id())
 square_ff = square_ff.make;
 
+class square2_ff(object):
+    """<+description of block+>"""
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+    def make():
+        """
+        make() -> sptr
+
+        Return a shared_ptr to a new instance of howto::square2_ff.
+
+        To avoid accidental use of raw pointers, howto::square2_ff's constructor is in a private implementation class. howto::square2_ff::make is the public interface for creating new instances.
+
+        Params: (NONE)
+        """
+        return _howto_swig.square2_ff_make()
+
+    make = staticmethod(make)
+    def __init__(self): 
+        """__init__(self) -> square2_ff"""
+        this = _howto_swig.new_square2_ff()
+        try: self.this.append(this)
+        except: self.this = this
+    __swig_destroy__ = _howto_swig.delete_square2_ff
+    __del__ = lambda self : None;
+square2_ff_swigregister = _howto_swig.square2_ff_swigregister
+square2_ff_swigregister(square2_ff)
+
+def square2_ff_make():
+  """
+    square2_ff_make() -> sptr
+
+    Return a shared_ptr to a new instance of howto::square2_ff.
+
+    To avoid accidental use of raw pointers, howto::square2_ff's constructor is in a private implementation class. howto::square2_ff::make is the public interface for creating new instances.
+
+    Params: (NONE)
+    """
+  return _howto_swig.square2_ff_make()
+
+class square2_ff_sptr(object):
+    """Proxy of C++ boost::shared_ptr<(gr::howto::square2_ff)> class"""
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+    def __init__(self, *args): 
+        """
+        __init__(self) -> square2_ff_sptr
+        __init__(self, square2_ff p) -> square2_ff_sptr
+        """
+        this = _howto_swig.new_square2_ff_sptr(*args)
+        try: self.this.append(this)
+        except: self.this = this
+    def __deref__(self):
+        """__deref__(self) -> square2_ff"""
+        return _howto_swig.square2_ff_sptr___deref__(self)
+
+    __swig_destroy__ = _howto_swig.delete_square2_ff_sptr
+    __del__ = lambda self : None;
+    def make(self):
+        """
+        make(self) -> sptr
+
+        Return a shared_ptr to a new instance of howto::square2_ff.
+
+        To avoid accidental use of raw pointers, howto::square2_ff's constructor is in a private implementation class. howto::square2_ff::make is the public interface for creating new instances.
+
+        Params: (NONE)
+        """
+        return _howto_swig.square2_ff_sptr_make(self)
+
+    def input_signature(self):
+        """input_signature(self) -> gr_io_signature_sptr"""
+        return _howto_swig.square2_ff_sptr_input_signature(self)
+
+    def output_signature(self):
+        """output_signature(self) -> gr_io_signature_sptr"""
+        return _howto_swig.square2_ff_sptr_output_signature(self)
+
+    def history(self):
+        """history(self) -> unsigned int"""
+        return _howto_swig.square2_ff_sptr_history(self)
+
+    def output_multiple(self):
+        """output_multiple(self) -> int"""
+        return _howto_swig.square2_ff_sptr_output_multiple(self)
+
+    def relative_rate(self):
+        """relative_rate(self) -> double"""
+        return _howto_swig.square2_ff_sptr_relative_rate(self)
+
+    def start(self):
+        """start(self) -> bool"""
+        return _howto_swig.square2_ff_sptr_start(self)
+
+    def stop(self):
+        """stop(self) -> bool"""
+        return _howto_swig.square2_ff_sptr_stop(self)
+
+    def nitems_read(self, *args, **kwargs):
+        """nitems_read(self, unsigned int which_input) -> uint64_t"""
+        return _howto_swig.square2_ff_sptr_nitems_read(self, *args, **kwargs)
+
+    def nitems_written(self, *args, **kwargs):
+        """nitems_written(self, unsigned int which_output) -> uint64_t"""
+        return _howto_swig.square2_ff_sptr_nitems_written(self, *args, **kwargs)
+
+    def max_noutput_items(self):
+        """max_noutput_items(self) -> int"""
+        return _howto_swig.square2_ff_sptr_max_noutput_items(self)
+
+    def set_max_noutput_items(self, *args, **kwargs):
+        """set_max_noutput_items(self, int m)"""
+        return _howto_swig.square2_ff_sptr_set_max_noutput_items(self, *args, **kwargs)
+
+    def unset_max_noutput_items(self):
+        """unset_max_noutput_items(self)"""
+        return _howto_swig.square2_ff_sptr_unset_max_noutput_items(self)
+
+    def is_set_max_noutput_items(self):
+        """is_set_max_noutput_items(self) -> bool"""
+        return _howto_swig.square2_ff_sptr_is_set_max_noutput_items(self)
+
+    def max_output_buffer(self, *args, **kwargs):
+        """max_output_buffer(self, int i) -> long"""
+        return _howto_swig.square2_ff_sptr_max_output_buffer(self, *args, **kwargs)
+
+    def set_max_output_buffer(self, *args):
+        """
+        set_max_output_buffer(self, long max_output_buffer)
+        set_max_output_buffer(self, int port, long max_output_buffer)
+        """
+        return _howto_swig.square2_ff_sptr_set_max_output_buffer(self, *args)
+
+    def min_output_buffer(self, *args, **kwargs):
+        """min_output_buffer(self, int i) -> long"""
+        return _howto_swig.square2_ff_sptr_min_output_buffer(self, *args, **kwargs)
+
+    def set_min_output_buffer(self, *args):
+        """
+        set_min_output_buffer(self, long min_output_buffer)
+        set_min_output_buffer(self, int port, long min_output_buffer)
+        """
+        return _howto_swig.square2_ff_sptr_set_min_output_buffer(self, *args)
+
+    def to_element(self, *args):
+        """
+        to_element(self) -> Element
+        to_element(self) -> Element
+        """
+        return _howto_swig.square2_ff_sptr_to_element(self, *args)
+
+    def equals(self, *args, **kwargs):
+        """equals(self, Element rhs) -> bool"""
+        return _howto_swig.square2_ff_sptr_equals(self, *args, **kwargs)
+
+    def to_string(self):
+        """to_string(self) -> string"""
+        return _howto_swig.square2_ff_sptr_to_string(self)
+
+    def set_uid(self, *args, **kwargs):
+        """set_uid(self, string uid)"""
+        return _howto_swig.square2_ff_sptr_set_uid(self, *args, **kwargs)
+
+    def get_uid(self):
+        """get_uid(self) -> string"""
+        return _howto_swig.square2_ff_sptr_get_uid(self)
+
+    def adopt_element(self, *args, **kwargs):
+        """adopt_element(self, string name, Element child)"""
+        return _howto_swig.square2_ff_sptr_adopt_element(self, *args, **kwargs)
+
+    def locate_element(self, *args, **kwargs):
+        """locate_element(self, string path) -> Element"""
+        return _howto_swig.square2_ff_sptr_locate_element(self, *args, **kwargs)
+
+    def get_registered_names(self):
+        """get_registered_names(self) -> std::vector<(std::string,std::allocator<(std::string)>)>"""
+        return _howto_swig.square2_ff_sptr_get_registered_names(self)
+
+    def _handle_call(self, *args, **kwargs):
+        """_handle_call(self, string arg0, PMCC arg1) -> PMCC"""
+        return _howto_swig.square2_ff_sptr__handle_call(self, *args, **kwargs)
+
+square2_ff_sptr_swigregister = _howto_swig.square2_ff_sptr_swigregister
+square2_ff_sptr_swigregister(square2_ff_sptr)
+
+square2_ff_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id())
+square2_ff = square2_ff.make;
+
 
 
